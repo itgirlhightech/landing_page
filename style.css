@@ -144,6 +144,132 @@ hr {
     border-radius: 0.5rem;
 }
 
+#detalhes-receita {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color:#181012 ;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ingredientes-receita {
+    list-style-type: none; 
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+#titulo-receita {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align:left;
+
+}
+
+#subtitulo-ingredientes {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+#subtitulo-ingredientes {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem; 
+    text-align: left;
+}
+
+#ingredientes-receita {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
+}
+
+#ingredientes-receita li {
+    display: flex;
+    align-items: center;
+    background-color:#a45a49;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #FFF2E7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    max-width: 500px;
+    margin-right: auto;
+}
+
+
+#ingredientes-receita li::before {
+    content: '✓'; 
+    color: #E7A80E;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    #ingredientes-receita li {
+        font-size: 0.9rem; 
+    }
+}
+
+#modo-preparo-receita {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+
+@media (max-width: 768px) {
+    #detalhes-receita {
+        padding: 1rem;
+    }
+
+    #ingredientes-receita li {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+
+    #titulo-receita {
+        font-size: 1.5rem;
+    }
+}
+
+#voltar {
+    margin-top: 1rem;
+    display: flrx;
+    text-align: center;
+    font-size: 1rem;
+    color: #FFF2E7;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    align-items: center;
+    width: 3rem;
+    padding: 0,5;
+    border-radius: 0.5rem; }
+
+   
+
+@media (max-width: 768px) {
+    #detalhes-receita {
+        padding: 1rem;
+    }
+
+    #ingredientes-receita li {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+
+    #titulo-receita {
+        font-size: 1.5rem;
+    }
+}
+
 .menu li {
     display: inline;
 }
