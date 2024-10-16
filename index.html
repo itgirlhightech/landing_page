@@ -15,7 +15,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Receitas</a></li>
                 <li><a href="#">Novidades</a></li>
-                <li><a href="#">Melhor avaliadas</a></li> <!-- Corrigido "avalidas" para "avaliadas" -->
+                <li><a href="#">Melhor avaliadas</a></li>
             </ul>
             <a class="Github" href="https://github.com/itgirlhightech">Github</a>
         </nav>
@@ -23,14 +23,14 @@
     <main>
         <div class="principal">
             <section class="hero">
-                <header class="hero-conteudo"> <!-- Corrigido "here-conteudo" para "hero-conteudo" -->
-                    <span class="destaque marrom">Novidade</span> <!-- Letras maiúsculas para consistência -->
+                <header class="hero-conteudo"> 
+                    <span class="destaque marrom">Novidade</span> 
                     <h1>Encontre a receita perfeita!</h1>
                     <hr/>
                     <h2 class="hero-sub">Explore dezenas de receitas deliciosas e práticas em um só lugar!</h2>
                 </header>
                 <div class="hero-image-cont">
-                    <figure><img src="assets/imagens/banana_breadd.jpg" alt="Banana Bread"/></figure> <!-- Nomes de arquivos corrigidos para o padrão snake_case -->
+                    <figure><img src="assets/imagens/banana_breadd.jpg" alt="Banana Bread"/></figure> 
                     <figure><img src="assets/imagens/bolo_de_cenecaa.jpg" alt="Bolo de Caneca"/></figure>
                     <figure><img src="assets/imagens/brownie.jpg" alt="Brownie"/></figure>
                     <figure><img src="assets/imagens/cheesecakee.jpg" alt="Cheesecake"/></figure>
@@ -41,38 +41,41 @@
                 </div>
             </section>
         </div>
-        <section class="botao-container"> <!-- Corrigido "votao-container" para "botao-container" -->
+        <section class="botao-container"> 
             <button type="button">
                 <img src="assets/imagens/angle-small-down.png" alt="Seta para baixo"/>
             </button>
         </section>    
-        <section class="receitas"> 
-            <header class="receita-cabecalho"> <!-- Corrigido "receita-cabeçalho" para "receita-cabecalho" -->
-                <span class="destaque marrom">Receitas</span> <!-- Letras maiúsculas para consistência -->
+        
+       
+        <section class="receitas">
+            <header class="receita-cabecalho"> 
+                <span class="destaque marrom">Receitas</span>
                 <h2 class="receita-titulo">Confira as últimas receitas</h2>
                 <p class="receita-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
             </header>
-            <div class="receitas-card-container">
-                <div class="receitas-card">
-                    <header class="card-cabecalho"> <!-- Corrigido "card-cabeçalho" para "card-cabecalho" -->
-                        <div class="card-cabecalho-detalhes"> <!-- Corrigido "card-cabeçalho-detalhes" para "card-cabecalho-detalhes" -->
-                            <span class="destaque amarelo">Em alta</span> <!-- Letras maiúsculas para consistência -->
-                            <h3 class="receita-titulo">Brownie</h3>
-                        </div>
-                        <p class="receita-avaliacao">Maravilhoso . 4/4</p> <!-- Corrigido "avaliação" para "avaliacao" -->
-                    </header>
-                    <p class="receita-descricao">Receita ideal para os amantes de chocolate!</p>
-                    <div class="receita-autor">
-                        <img src="assets/imagens/1701277217025.jpg" alt="Autora Evilyn Feitosa"/>
-                        <span class="receita-autor-nome">Evilyn Feitosa</span>
-                    </div>
-                </div>
+            <div id="receitas-card-container" class="receitas-card-container">
+                
             </div>
         </section>
+        
+       
+        <section id="detalhes-receita" class="detalhes-receita" style="display:none;">
+            <h2 id="titulo-receita"></h2>
+            <h3>Ingredientes</h3>
+            <ul id="ingredientes-receita"></ul>
+            <h3>Modo de Preparo</h3>
+            <p id="modo-preparo-receita"></p>
+            <button id="voltar">Voltar</button>
+        </section>
     </main>
+
     <footer>
         <p class="footer-copy">Copyright &lt;SWEETCODE /&gt; 2024</p>
-        <p class="footer-autor">Feito com muito amor e açúcar por Evilyn Feitosa</p> <!-- Corrigido "açucar" para "açúcar" -->
+        <p class="footer-autor">Feito com muito amor e açúcar por Evilyn Feitosa</p> 
     </footer>
+
+    
+    <script src="script.js"></script>
 </body>
 </html>
