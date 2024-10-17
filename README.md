@@ -1,7 +1,7 @@
 # Landing Page - Sweetvi
 
 ## Descrição
-Sweetvi é uma landing page simples e moderna para um site de receitas de confeitaria. O objetivo é oferecer uma interface amigável para os usuários encontrarem receitas práticas e deliciosas.
+Sweetvi é uma landing page simples e moderna para um site de receitas de confeitaria. O objetivo é oferecer uma interface amigável para os usuários encontrarem receitas práticas e deliciosas. O projeto é organizado de forma a facilitar a navegação, com seções dedicadas a receitas, novidades, e receitas mais bem avaliadas.
 
 ## Tecnologias Utilizadas
 - **HTML5**: Estrutura do conteúdo da página.
