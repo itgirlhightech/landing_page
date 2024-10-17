@@ -28,3 +28,5 @@ Sweetvi é uma landing page simples e moderna para um site de receitas de confei
 - Links para navegação (Home, Receitas, Novidades, Melhor Avaliadas).
 - Seção com as receitas mais recentes e em alta.
 - Responsivo e otimizado para diferentes tamanhos de tela.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8cde6b04-9131-4b95-91a6-741103c8ee2c/deploy-status)](https://app.netlify.com/sites/darling-sunflower-350d1b/deploys)
