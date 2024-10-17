@@ -12,14 +12,15 @@ Sweetvi é uma landing page simples e moderna para um site de receitas de confei
 
 ## Estrutura do Projeto
 ```bash
-.
 ├── assets/
-│   ├── imagens/
-│ 
-├── index.html
-├── style.css
-|__ script.js
-└── README.md
+│   ├── imagens/               
+├── index.html                 
+├── receitas.html              
+├── novidades.html             
+├── melhor-avaliadas.html      
+├── style.css                  
+├── script.js                  
+└── README.md                  
 ```
 
 ## Funcionalidades
