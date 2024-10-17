@@ -18,6 +18,7 @@ Sweetvi é uma landing page simples e moderna para um site de receitas de confei
 │ 
 ├── index.html
 ├── style.css
+|__ script.js
 └── README.md
 ```
 
